@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Users\sayal\Desktop\internship project\protofolio web\style.css">
+
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">tindog</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">DOGS & PUPPIES FOR SALE </h1>
+          <h6> Find Your New Best Friend </h6>
+          <button type="button" class="btn btn-dark btn-lg download-button">
+            GET STARTED</button>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">ADD YOUR PET .</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Select a Match</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Communicate.</h3>
+          <p>Find the new member of your family.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text"> Very happy with the purchase ,here i found most lovely dog .</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h1>Our Happy Customer</h1>
+          <p class="customer">
+          <h3> I purchased 2 puppies over the year know they both are very healthy dogs . i have been
+            very happy withn
+            service in this online platform ,the experience was great!!</h3>
+          </p>
+          <h2 class="testimonial-text"></h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">Select Your favorite breed</h2>
+    <p>Simple and affordable price plans for your dog.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text"></h2>
+            <p>HEIGHT
+              <br> 5-8 inches 🐕
+            </p>
+            <p>Weight
+              <br>not exceeding 6 pounds
+            </p>
+            <p>Life Expectancy <br>14-16 years 🎂</p>
+            <button class="btn btn-lg btn-block btn-dark">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+
+          </div>
+          <p>HEIGHT
+            <br>30 inches & up 🐕
+          </p>
+          <p>Weight
+            <br> 160-230 pounds
+          </p>
+          <p>Life Expectancy <br> 6-10 years 🎂</p>
+          <div class="card-body">
+            <h2 class="price-text"></h2>
+
+            <button class="btn btn-lg btn-block btn-dark" type="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text"></h2>
+            <p>HEIGHT
+              <br> 22.5-24.5 inches 🐕
+            </p>
+            <p>Weight
+              <br>65-80 pounds
+            </p>
+            <p>Life Expectancy <br>11-13 years 🎂</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Buy Now</button>
+
+          </div>
+        </div>
+      </div>
+
+      <h2 class=" info">
+
+        AND WE HAVE MANY MORE VARIETY OF PETS!
+      </h2>
+
+    </div>
+
+  </section>
+
+
+
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+      <h1> For More Detail Contact Us</h1>
+      <h2>
+        <div class="help"> HELP CENTER
+        </div>
+      </h2>
+      <br>
+
+      <br> <button class="download-button btn btn-lg btn-dark" type="button"> </i> WITH HELP
+        CENTER</button>
+      <br>
+      <P>
+      <h4>EMAIL<br>Typical reply time within a day of two everyday 6am-6pm PST</h4>
+      </P>
+      <button class="download-button btn btn-lg brn-light" type="button"></i>
+        EMAIL US ✉️</button>
+    </div>
+  </section>
+
+
+
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2021 TinDog</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
